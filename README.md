@@ -1,27 +1,34 @@
-### ¡Hola! Soy Laura.  
-#### Soy desarrolladora iOS, graduada del **Swift Developer Program** y del **Vision Developer Program** de **Apple Coding Academy**.  
-Actualmente, estoy enfocada en perfeccionar mis habilidades en Swift, SwiftUI, y aprendiendo SwiftData para el desarrollo de aplicaciones tanto en iOS como en visionOS.**.
+## ¡Hola! Soy Laura
+Mi pasión por la tecnología me llevó a aventurarme en el camino del desarrollo, y espero en algún punto poder fusionar mis conocimientos en sostenibilidad ambiental y desarrollo para generar soluciones de valor. 
 
-Si quieres ponerte en contacto conmigo:
+•  Desarrolladora iOS | 🌱 Magíster en Gerencia Ambiental  
+• 🎓 Swift Developer Program & Vision Developer Program  
+• 📱 Enfocada en perfeccionar mis habilidades en Swift, SwiftUI y SwiftData para iOS y visionOS  
+• 🚀 Apasionada por la tecnología y la creación de soluciones innovadoras  
+• 🤝 Abierta a nuevas colaboraciones y desafíos tecnológicos  
+• 🛠️ Herramientas: Xcode, Git, GitHub  
+• 📲 Proyectos recientes: Manga Zone App
 
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/laura-isabel-rojas-bustamante-658b8677/)
+## 🚀 Proyectos Destacados
 
-## 🪛 Herramientas
+<table>
+<tr>
+<td width="50%" align="center">
+<a href="https://github.com/Laura-irb18/MangaZone" target="_blank">
+<img src="https://github.com/Laura-irb18/Laura-irb18/blob/main/Manga%20Zone%20App%20Image.png" width="400" alt="Manga Zone App">
+</a>
+</td>
+<td width="50%" align="left" style="padding-left: 20px;">
+<h3>Manga Zone App</h3>
+📚 Para este proyecto desarrollé una aplicación que permite a los usuarios gestionar su colección de mangas de forma intuitiva y eficiente. Cuenta con funcionalidades avanzadas como la consulta de referencias bibliográficas, filtros para clasificar la información, el registro de tomos adquiridos, progreso en la colección y su estado. Además, los datos de los usuarios, como el token y las credenciales, se almacenan de manera segura en la cartera de certificados del dispositivo.
 
-#### 🤓  Lenguajes de programación en los que me estoy especializando actualmente:
+📱 La aplicación fue diseñada para iPhone, iPad y Apple Vision Pro.
 
-![Swift](https://img.shields.io/badge/SWIFT-E34F26?style=for-the-badge&logo=swift&logoColor=white)  
-![SwiftUI](https://img.shields.io/badge/SWIFTUI-E34F26?style=for-the-badge&logo=swift&logoColor=white)
+<p><strong>Enlace al proyecto:</strong> <a href="https://github.com/Laura-irb18/MangaZone" target="_blank">Manga Zone App</a></p>
+</td>
+</tr>
+</table>
 
-#### Versionado, Hosting y otras herramientas que utilizo para gestionar y optimizar mis proyectos:
-
-![xCode](https://img.shields.io/badge/xcode%20-%232B2B30.svg?&style=for-the-badge&logo=xCode&logoColor=007ACC)  
-![Git](https://img.shields.io/badge/Git%20-%23302F2F.svg?&style=for-the-badge&logo=Git&logoColor=F05032)  
-![GitHub](https://img.shields.io/badge/GitHub%20-%23181717.svg?&style=for-the-badge&logo=GitHub&logoColor=FFFFFF)
-
-## 😎 Proyectos recientes:
-
-- [Manga Zone App](https://github.com/Laura-irb18/MangaZone)  
 <!--
 **Laura-irb18/Laura-irb18** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
