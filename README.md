@@ -1,5 +1,5 @@
 ## ¡Hola! Soy Laura
-Mi pasión por la tecnología me llevó a aventurarme en el camino del desarrollo, y espero en algún punto poder fusionar mis conocimientos en sostenibilidad ambiental y desarrollo para generar soluciones de valor. 
+Mi pasión por la tecnología me llevó a aventurarme en el camino del desarrollo. Espero en algún punto poder fusionar mis conocimientos en sostenibilidad ambiental y desarrollo para generar soluciones de valor. 
 
 •  Desarrolladora iOS | 🌱 Magíster en Gerencia Ambiental  
 • 🎓 Swift Developer Program & Vision Developer Program  
