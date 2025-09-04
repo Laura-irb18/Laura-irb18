@@ -7,7 +7,7 @@ Mi pasión por la tecnología me llevó a aventurarme en el camino del desarroll
 • 🚀 Apasionada por la tecnología y la creación de soluciones innovadoras  
 • 🤝 Abierta a nuevas colaboraciones y desafíos tecnológicos  
 • 🛠️ Herramientas: Xcode, Git, GitHub  
-• 📲 Proyectos recientes: Manga Zone App
+• 📲 Proyectos recientes: RescueMe, Stream Radar
 
 ## 🚀 Proyectos Destacados
 
