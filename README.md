@@ -1,65 +1,122 @@
-## ¡Hola! Soy Laura
-Mi pasión por la tecnología me llevó a aventurarme en el camino del desarrollo. Espero en algún punto poder fusionar mis conocimientos en sostenibilidad ambiental y desarrollo para generar soluciones de valor. 
+## ¡Hola! Soy Laura 👋
 
-•  Desarrolladora iOS | 🌱 Magíster en Gerencia Ambiental  
+Mi pasión por la tecnología me llevó a aventurarme en el camino del desarrollo. Espero en algún punto poder fusionar mis conocimientos en sostenibilidad ambiental y desarrollo para generar soluciones de valor.
+ 
+•  Desarrolladora iOS l  
 • 🎓 Swift Developer Program & Vision Developer Program  
 • 📱 Enfocada en perfeccionar mis habilidades en Swift, SwiftUI y SwiftData para iOS y visionOS  
 • 🚀 Apasionada por la tecnología y la creación de soluciones innovadoras  
 • 🤝 Abierta a nuevas colaboraciones y desafíos tecnológicos  
-• 🛠️ Herramientas: Xcode, Git, GitHub  
 • 📲 Proyectos recientes: RescueMe, Stream Radar
+
+---
+
+### Stack técnico
+
+| | |
+|---|---|
+| **Lenguajes y frameworks** | Swift · SwiftUI · MapKit · PhotosUI · URLSession |
+| **Arquitectura y patrones** | MVVM · Clean Architecture · async/await · Actors · inyección de dependencias |
+| **Herramientas de desarrollo** | Xcode · Git · GitHub · SPM |
+| **Servicios e integraciones** | REST APIs · Keychain Services · Cloudinary · TMDB API |
+| **Plataformas** | iPhone · iPad · Apple Vision Pro · visionOS |
+| **Metodologías** | Scrum · flujo Pull Request / code review |
+
+---
 
 ## 🚀 Proyectos Destacados
 
 <table>
 <tr>
-<td width="50%" align="center">
+<td width="45%" align="center">
 <a href="#" target="_blank">
 <img src="https://github.com/Laura-irb18/Laura-irb18/blob/main/RescueMe-App-Image.png" width="500" alt="RescueMe App">
 </a>
 </td>
-<td width="50%" align="left" style="padding-left: 20px;">
-<h3>🐕 RescueMe App</h3>
-<p><em>Proyecto en desarrollo</em></p>
-<p>Actualmente colaboro en el desarrollo de una app iOS para la gestión y visibilidad de refugios y sus animales, basada en la ubicación del usuario. El proyecto implementa una arquitectura MVVM con casos de uso, ViewModels observables y concurrencia con async/await. Incluye un sistema de autenticación/login con almacenamiento seguro de credenciales en Keychain. Además, integramos un módulo de red personalizado para el consumo completo de APIs REST, MapKit para funcionalidades de geolocalización, gestión de imágenes en la nube mediante Cloudinary, y validación de formularios con property wrappers personalizados y mensajes localizados.</p>
+<td width="55%" align="left" style="padding-left: 20px;">
+
+### 🐕 RescueMe App
+*Proyecto en equipo (3 iOS + 1 Android) · feb. 2025 – oct. 2025*
+
+App iOS para la gestión y visibilidad de refugios de animales basada en la ubicación del usuario.
+
+- Lideré el módulo de favoritos y el flujo completo de edición de mascotas (MVVM + Clean Architecture), separando ViewModels y casos de uso para mantener la capa de dominio independiente de la UI.
+- Implementé integración con MapKit para la visualización dinámica de refugios cercanos en tiempo real, gestionando todos los estados de autorización de localización.
+- Diseñé un sistema centralizado de monitoreo del estado de la red y gestión global de errores, evitando duplicación de lógica entre pantallas.
+- Participé en los flujos de autenticación (registro, login, recuperación de contraseña) y en la sincronización de imágenes con Cloudinary.
+- Realicé code reviews a compañeros e identifiqué bugs en módulos ajenos al propio.
+
+**Tecnologías:** Swift · SwiftUI · MVVM · Clean Architecture · MapKit · Cloudinary · Keychain · async/await
+
 </td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td width="50%" align="center">
+<td width="45%" align="center">
 <a href="https://github.com/SwiftyCoders/StreamRadar" target="_blank">
 <img src="https://github.com/Laura-irb18/Laura-irb18/blob/main/StreamRadarImage.png" width="500" alt="Stream Radar App">
 </a>
 </td>
-<td width="50%" align="left" style="padding-left: 20px;">
-<h3>🎬 Stream Radar App</h3>
-<p><em>Proyecto completado</em></p>
-<p>Desarrollé una app para iOS e iPadOS que permite buscar películas y series y descubrir en qué plataformas de streaming están disponibles. La aplicación está construida con SwiftUI y una arquitectura MVVM con ViewModels observables (@Observable) y concurrencia moderna con async/await. Integra un módulo de red personalizado para el consumo completo de APIs REST, incluyendo búsqueda de contenidos, proveedores de streaming y videos/tráilers, con manejo de paginación de resultados de forma asíncrona.</p>
+<td width="55%" align="left" style="padding-left: 20px;">
 
-<p>La interfaz implementa patrones adaptativos según el dispositivo: listas en iPhone y cuadrículas en iPad. Se optimizó la carga de imágenes con un actor de caché y descarga concurrente. El diseño emplea componentes reutilizables y constantes centralizadas para mantener consistencia tipográfica y de espaciado, incluyendo estados de carga, manejo de errores con alertas y soporte completo para modo oscuro.</p>
-<p><strong>Tecnologías:</strong> Swift, SwiftUI, Async/await y MVVM</p>
-<p><strong>Enlace al proyecto:</strong> <a href="https://github.com/SwiftyCoders/StreamRadar" target="_blank">Stream Radar App</a></p>
+### 🎬 Stream Radar App
+*Proyecto individual · oct. 2024 – ene. 2025*
+
+App universal para iPhone e iPad que permite buscar películas y series y descubrir en qué plataformas de streaming están disponibles.
+
+- Abstraí un módulo de red genérico sobre URLSession + async/await que encapsula la integración con TMDB API, reutilizable para múltiples peticiones.
+- Implementé scroll con paginación asíncrona (20 resultados/página) y un Actor de Swift Concurrency para la descarga concurrente de imágenes en caché, evitando data races sin locks manuales.
+- Diseñé un layout adaptativo (lista en iPhone · cuadrícula en iPad) aprovechando SwiftUI y Size Classes.
+
+**Tecnologías:** Swift · SwiftUI · MVVM · async/await · Actors · TMDB API · URLSession
+
+**[Ver proyecto →](https://github.com/SwiftyCoders/StreamRadar)**
+
 </td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td width="50%" align="center">
+<td width="45%" align="center">
 <a href="https://github.com/Laura-irb18/MangaZone" target="_blank">
 <img src="https://github.com/Laura-irb18/Laura-irb18/blob/main/Manga%20Zone%20App%20Image.png" width="500" alt="Manga Zone App">
 </a>
 </td>
-<td width="50%" align="left" style="padding-left: 20px;">
-<h3>📚 Manga Zone App</h3>
-Para este proyecto desarrollé una aplicación que permite a los usuarios gestionar su colección de mangas de forma intuitiva y eficiente. Cuenta con funcionalidades avanzadas como la consulta de referencias bibliográficas, filtros para clasificar la información, el registro de tomos adquiridos, progreso en la colección y su estado. Además, los datos de los usuarios, como el token y las credenciales, se almacenan de manera segura en la cartera de certificados del dispositivo.
-📱 La aplicación fue diseñada para iPhone, iPad y Apple Vision Pro.
-<p><strong>Enlace al proyecto:</strong> <a href="https://github.com/Laura-irb18/MangaZone" target="_blank">Manga Zone App</a></p>
+<td width="55%" align="left" style="padding-left: 20px;">
+
+### 📚 Manga Zone App
+*Proyecto individual · Swift Developer Program, Apple Coding Academy · jun. – sept. 2024 · **Calificación: 10/10***
+
+App multiplataforma para gestionar colecciones de manga, construida con dos targets independientes —iOS/iPadOS y visionOS— que comparten la misma base de código.
+
+- Integré endpoints REST cubriendo autenticación, colección personal del usuario y catálogo con filtros por géneros, temáticas y demografía.
+- Implementé persistencia segura de credenciales con Keychain Services, siguiendo las recomendaciones de Apple para el manejo de datos sensibles.
+
+**Tecnologías:** Swift · SwiftUI · visionOS · REST API · Keychain Services · multi-target
+
+**[Ver proyecto →](https://github.com/Laura-irb18/MangaZone)**
+
 </td>
 </tr>
 </table>
+
+---
+
+## 🎓 Certificaciones
+
+| Certificación | Institución | Año |
+|---|---|---|
+| Introduction to Software Engineering | IBM · Coursera | 2026 |
+| Claude Code in Action | Anthropic | 2025 |
+| Vision Developer Program | Apple Coding Academy | 2024 |
+| Swift Developer Program | Apple Coding Academy | 2024 |
+
+---
+
+*Abierta a nuevas colaboraciones y desafíos tecnológicos. Puedes encontrarme en [LinkedIn](https://www.linkedin.com/in/laura-rojas-ios).*
 <!--
 **Laura-irb18/Laura-irb18** is a ✨ *special* ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
